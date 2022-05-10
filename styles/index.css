@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 139, 0.445);
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    margin-right: 5rem;
+    text-decoration: none;
+    color: #f5f8fb;
+    font-size: 2rem;
+}
+
+main {
+    background-color: #f5f8fb;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 1.6rem;
+    padding-left: 3rem;  
+}
+
+h1 {
+    padding: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+form {
+    display: grid;
+    padding: 1rem;
+}
+
+.radio {
+    padding-left: 1rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 139, 0.404);
+    padding: 1rem;
+}
+
+.submit {
+    width: 100px;
+}
+
+/* #dvPreview {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+    width: fit-content;
+    height: 200px;
+    overflow: scroll;
+    display: none;
+} */

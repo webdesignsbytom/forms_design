@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/forms2.css">
+    <title>Form Sign Up</title>
+</head>
+<body>
+
+    <main>
+        <section class="form">
+
+            <header class="form-header">
+                <h1>Welcome</h1>
+                <p>Do you <span>love</span>forms?</p>
+                <p>Sign-up <span>today</span>and recieve new forms daily!</p>
+            </header>
+
+            <form class="form-content" action="./form3.html">
+                <fieldset class="fname">
+                    <label for="fname">
+                        <h2>First Name</h2>
+
+                        <input
+                        required 
+                        type="text"
+                        name="fname"
+                        id="fname"
+                        minlength="2"
+                        placeholder="First Name"
+                        />
+                    </label>
+                </fieldset>
+
+                <fieldset class="lname">
+                    <label for="lname">
+                        <h2>Last Name</h2>
+
+                        <input
+                        required 
+                        type="text"
+                        name="lname"
+                        id="lname"
+                        minlength="2"
+                        placeholder="Last Name"
+                        />
+                    </label>
+                </fieldset>
+
+                <fieldset class="email">
+                    <label for="email">
+                        <h2>Email</h2>
+
+                        <input
+                        required
+                        type="email"
+                        name="email"
+                        id="email"
+                        minlength="8"
+                        placeholder="Enter your email address"/>
+                    </label>
+                </fieldset>
+
+                <fieldset class="services">
+
+                  <label for="services">
+                    <h2>Needed Services</h2>
+
+                    <select name="services" id="services" required>
+                      <option value="" disabled selected>Choose Service</option>
+                      <option value="coding-stuff">Coding Stuff</option>
+                      <option value="stuff-coding">Stuff Coding</option>
+                    </select>
+
+                  </label>
+                </fieldset>
+
+                <fieldset class="budget">
+                    <label for="budget">
+                        <h2>Budget</h2>
+
+                        <select name="budget" id="budget" required>
+                        <option value="" disabled selected>Select Budget</option>
+                        <option value="low">$</option>
+                        <option value="med">$$</option>
+                        <option value="high">$$$</option>
+                        </select>
+                  </label>
+                </fieldset>
+
+                <fieldset class="message">
+                    <label for="message">
+                        <h2>Message</h2>
+
+                        <textarea
+                        
+                        name="message"
+                        id="message"
+                        minlength="2"
+                        placeholder="Your message here">
+                        </textarea>
+                    </label>
+                </fieldset>
+
+                <button class="form__submit button">
+                  <div class="button__text">Submit</div>
+                </button>
+
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
